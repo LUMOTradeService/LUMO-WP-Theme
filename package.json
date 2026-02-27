@@ -1,0 +1,19 @@
+{
+	"name": "lumopos",
+	"version": "1.0.0",
+	"description": "WP Theme for LUMO trade service websites",
+	"author": "LUMO trade service, Lukas Moravec",
+	"license": "GPL-3.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Theme"
+	],
+	"bugs": {
+		"url": "https://lumopos.com/themes/lumopos/bug"
+	},
+	"homepage": "https://lumopos.com/themes/lumopos/",
+	"engines": {
+		"node": ">=20.10.0",
+		"npm": ">=10.2.3"
+	}
+}

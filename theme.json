@@ -1,0 +1,345 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "settings": {
+        "border": {
+            "radiusSizes": [
+                {
+                    "name": "Extra small",
+                    "size": "4px",
+                    "slug": "extra-small"
+                },
+                {
+                    "name": "Small",
+                    "size": "8px",
+                    "slug": "small"
+                },
+                {
+                    "name": "Normal",
+                    "size": "16px",
+                    "slug": "normal"
+                },
+                {
+                    "name": "Large",
+                    "size": "24px",
+                    "slug": "large"
+                },
+                {
+                    "name": "Extra large",
+                    "size": "48px",
+                    "slug": "extra-large"
+                }
+            ]
+        },
+        "spacing": {
+            "spacingSizes": [
+                {
+                    "name": "Extra small",
+                    "size": "4px",
+                    "slug": "extra-small"
+                },
+                {
+                    "name": "Small",
+                    "size": "8px",
+                    "slug": "small"
+                },
+                {
+                    "name": "Normal",
+                    "size": "16px",
+                    "slug": "normal"
+                },
+                {
+                    "name": "Large",
+                    "size": "24px",
+                    "slug": "large"
+                },
+                {
+                    "name": "Extra large",
+                    "size": "48px",
+                    "slug": "extra-large"
+                }
+            ]
+        },
+        "color": {
+            "background": false,
+            "custom": false,
+            "defaultDuotone": false,
+            "customDuotone": false,
+            "defaultGradients": false,
+            "customGradient": false,
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "name": "Primary",
+                    "color": "#B5C4FF",
+                    "slug": "primary"
+                },
+                {
+                    "name": "On primary",
+                    "color": "#1C2D61",
+                    "slug": "on-primary"
+                },
+                {
+                    "name": "Primary container",
+                    "color": "#344479",
+                    "slug": "primary-container"
+                },
+                {
+                    "name": "On primary container",
+                    "color": "#DCE1FF",
+                    "slug": "on-primary-container"
+                },
+                {
+                    "name": "Secondary",
+                    "color": "#C1C5DD",
+                    "slug": "secondary"
+                },
+                {
+                    "name": "On secondary",
+                    "color": "#2B3042",
+                    "slug": "on-secondary"
+                },
+                {
+                    "name": "Secondary container",
+                    "color": "#414659",
+                    "slug": "secondary-container"
+                },
+                {
+                    "name": "On secondary container",
+                    "color": "#DDE1F9",
+                    "slug": "on-secondary-container"
+                },
+                {
+                    "name": "Tertiary",
+                    "color": "#E2BADB",
+                    "slug": "tertiary"
+                },
+                {
+                    "name": "On tertiary",
+                    "color": "#432740",
+                    "slug": "on-tertiary"
+                },
+                {
+                    "name": "Tertiary container",
+                    "color": "#5B3D57",
+                    "slug": "tertiary-container"
+                },
+                {
+                    "name": "On tertiary container",
+                    "color": "#FFD7F7",
+                    "slug": "on-tertiary-container"
+                },
+                {
+                    "name": "Error",
+                    "color": "#FFB4AB",
+                    "slug": "error"
+                },
+                {
+                    "name": "On error",
+                    "color": "#690005",
+                    "slug": "on-error"
+                },
+                {
+                    "name": "Error container",
+                    "color": "#93000A",
+                    "slug": "error-container"
+                },
+                {
+                    "name": "On error container",
+                    "color": "#FFDAD6",
+                    "slug": "on-error-container"
+                },
+                {
+                    "name": "Surface",
+                    "color": "#121318",
+                    "slug": "surface"
+                },
+                {
+                    "name": "On surface",
+                    "color": "#E3E1E9",
+                    "slug": "on-surface"
+                },
+                {
+                    "name": "On surface variant",
+                    "color": "#C6C6D0",
+                    "slug": "on-surface-variant"
+                },
+                {
+                    "name": "Surface container",
+                    "color": "#1E1F25",
+                    "slug": "surface-container"
+                }
+            ]
+        },
+        "typography": {
+            "fluid": true,
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "ascentOverride": "130%",
+                            "descentOverride": "50%",
+                            "fontFamily": "Comfortaa",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./resources/fonts/Comfortaa/comfortaa-v45-latin_latin-ext-regular.woff2"
+                            ]
+                        },
+                        {
+                            "ascentOverride": "130%",
+                            "descentOverride": "50%",
+                            "fontFamily": "Comfortaa",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                                "file:./resources/fonts/Comfortaa/comfortaa-v45-latin_latin-ext-600.woff2"
+                            ]
+                        },
+                        {
+                            "ascentOverride": "130%",
+                            "descentOverride": "50%",
+                            "fontFamily": "Comfortaa",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./resources/fonts/Comfortaa/comfortaa-v45-latin_latin-ext-700.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Comfortaa\", sans-serif",
+                    "name": "Comfortaa",
+                    "slug": "text"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Montserrat",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./resources/fonts/Montserrat/montserrat-v26-latin_latin-ext-regular.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Montserrat",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./resources/fonts/Montserrat/montserrat-v26-latin_latin-ext-700.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Montserrat\", sans-serif",
+                    "name": "Montserrat",
+                    "slug": "heading"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "fluid": false,
+                    "name": "Normal",
+                    "size": "20px",
+                    "slug": "normal"
+                },
+                {
+                    "fluid": false,
+                    "name": "Small",
+                    "size": "15px",
+                    "slug": "small"
+                },
+                {
+                    "fluid": false,
+                    "name": "Medium",
+                    "size": "20px",
+                    "slug": "medium"
+                },
+                {
+                    "fluid": false,
+                    "name": "Large",
+                    "size": "32px",
+                    "slug": "large"
+                },
+                {
+                    "fluid": {
+                        "max": "38px",
+                        "min": "20px"
+                    },
+                    "name": "Extra large",
+                    "size": "38px",
+                    "slug": "x-large"
+                },
+                {
+                    "fluid": {
+                        "max": "58px",
+                        "min": "38px"
+                    },
+                    "name": "H1",
+                    "size": "58px",
+                    "slug": "h1"
+                },
+                {
+                    "fluid": {
+                        "max": "46px",
+                        "min": "32px"
+                    },
+                    "name": "H2",
+                    "size": "46px",
+                    "slug": "h2"
+                },
+                {
+                    "fluid": {
+                        "max": "38px",
+                        "min": "20px"
+                    },
+                    "name": "H3",
+                    "size": "38px",
+                    "slug": "h3"
+                },
+                {
+                    "fluid": false,
+                    "name": "H4",
+                    "size": "32px",
+                    "slug": "h4"
+                },
+                {
+                    "fluid": false,
+                    "name": "H5",
+                    "size": "20px",
+                    "slug": "h5"
+                },
+                {
+                    "fluid": false,
+                    "name": "Icon",
+                    "size": "24px",
+                    "slug": "icon"
+                }
+            ]
+        },
+        "useRootPaddingAwareAlignments": true
+    },
+    "styles": {
+        "color": {
+            "text": "var:preset|color|on-surface",
+            "background": "var:preset|color|surface"
+        }
+    },
+    "customTemplates": {},
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Header",
+            "area": "header"
+        },
+        {
+            "name": "footer",
+            "title": "Footer",
+            "area": "footer"
+        }
+    ]
+}

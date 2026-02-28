@@ -1,0 +1,20 @@
+<?php
+/**
+ * Title: Header content
+ * Slug: lumopos/header-content
+ * Categories: Náhledový
+ */
+?>
+<!-- wp:columns {"metadata":{"categories":["Náhledový"],"patternName":"lumopos/header-content","name":"Header content"},"className":"overflow: hidden;","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|normal"}}}} -->
+<div class="wp-block-columns overflow: hidden;"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:post-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|on-primary-container"}}}},"textColor":"on-primary-container","fontSize":"display-large"} /-->
+
+<!-- wp:post-excerpt /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:post-featured-image {"aspectRatio":"auto","width":"","height":"100%"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->

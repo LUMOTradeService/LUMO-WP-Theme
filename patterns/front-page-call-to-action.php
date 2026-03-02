@@ -1,16 +1,17 @@
 <?php
 /**
- * Title: Main header content
- * Slug: lumopos/main-header-content
- * Categories: Výzva k akci
+ * Title: Front page call to action
+ * Slug: lumopos/front-page-call-to-action
+ * Categories: Call to action
  */
 ?>
-<!-- wp:columns {"verticalAlignment":null,"className":"overflow: hidden;","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|normal"}}}} -->
-<div class="wp-block-columns overflow: hidden;"><!-- wp:column {"verticalAlignment":"center"} -->
+
+<!-- wp:columns {"metadata":{"categories":["Call","to","action"],"patternName":"lumopos/front-page-call-to-action","name":"Front page call to action"},"className":"is-style-columns-rounded","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|normal"}}}} -->
+<div class="wp-block-columns is-style-columns-rounded"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large","right":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|normal"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:post-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|on-primary-container"}}}},"textColor":"on-primary-container","fontSize":"display-large"} /-->
 
-<!-- wp:post-excerpt /-->
+<!-- wp:post-excerpt {"fontSize":"display-small"} /-->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
@@ -21,6 +22,6 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:post-featured-image {"aspectRatio":"auto","width":"","height":"100%"} /--></div>
+<div class="wp-block-column"><!-- wp:post-featured-image {"aspectRatio":"3/2","width":"","height":"100%"} /--></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

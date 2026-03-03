@@ -9,7 +9,9 @@
 <div class="wp-block-group alignfull" style="margin-bottom:var(--wp--preset--spacing--extra-large)"><!-- wp:group {"align":"full","className":"is-style-default","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-default"><!-- wp:group {"metadata":{"categories":["footer"],"patternName":"core/left-aligned-footer","name":"Left-aligned footer"},"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|large","padding":{"right":"var:preset|spacing|normal","left":"var:preset|spacing|normal"}}},"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"320px"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-right:var(--wp--preset--spacing--normal);padding-left:var(--wp--preset--spacing--normal)"><!-- wp:group {"style":{"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
-<div class="wp-block-group"><!-- wp:site-logo /-->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small)"><!-- wp:site-logo {"width":280,"style":{"layout":{"selfStretch":"fixed","flexSize":"30px"}}} /--></div>
+<!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"left","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
 <p class="has-text-align-left"><?php esc_html_e('Každou zakázku řešíme individuálně, s důrazem na bezpečnost, kvalitu provedení a dlouhodobou spolehlivost.', 'lumopos');?></p>

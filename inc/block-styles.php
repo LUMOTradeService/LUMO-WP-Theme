@@ -25,19 +25,3 @@ function lumopos_register_block_styles() {
 		}'
     ) );
 }
-
-
-function lumopos_block_editor_assets()
-{
-	wp_register_script(
-		'lumopos-unregister-styles',
-		get_theme_file_uri('assets/js/unregister-styles.js'),
-		array(
-			'wp-blocks',
-			'wp-dom-ready',
-			'wp-edit-post'
-		)
-	);
-}
-
-add_action('enqueue_block_editor_assets', 'lumopos_block_editor_assets');

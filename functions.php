@@ -7,13 +7,27 @@
  * @since LUMO POS 1.0
  */
 
-add_action( 'init', 'lumopos_add_support', 111);
+if ( ! defined( 'ABSPATH' ) ) { exit; }
+
+add_action( 'init', 'lumopos_add_support');
 function lumopos_add_support() {
     add_post_type_support( 'page', 'excerpt' );
-    
-    register_block_type( __DIR__ . '/blocks/icon' );
-
-	add_editor_style('/resources/fonts/energy/energy.css');
 }
+
+function lumopos_block_editor_assets()
+{
+	wp_enqueue_script(
+		'lumopos-unregister-styles',
+		get_template_directory_uri() . '/assets/js/unregister-styles.js',
+		array(
+			'wp-blocks',
+			'wp-dom-ready',
+			'wp-edit-post'
+		), 
+		filemtime( get_template_directory() . '/assets/js/unregister-styles.js' ), 
+		true
+	);
+}
+add_action('enqueue_block_editor_assets', 'lumopos_block_editor_assets');
 
 require get_parent_theme_file_path('inc/block-styles.php');

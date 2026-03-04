@@ -1091,6 +1091,17 @@
 					}
 				}
 			},
+			"core/categories": {
+				"border": {
+					"radius": {
+						"bottomLeft": "0",
+						"bottomRight": "0",
+						"topLeft": "0",
+						"topRight": "0"
+					}
+				},
+				"css": "display: flex;\nflex-wrap: wrap;\ngap: var(--wp--preset--spacing--small);\nlist-style-type: none;\npadding: 0px;\njustify-content: center;\n\n& .cat-item a {\ndisplay: block;\nmin-height: 48px;\nborder-radius: var(--wp--preset--border-radius--large);\npadding: 0px var(--wp--preset--spacing--large);\nbackground-color: var(--wp--preset--color--surface-container);\nalign-content: center;\ncolor: var(--wp--preset--color--on-surface);\ntext-decoration: none;\nline-height: 1;\ntransition: background-color var(--wp--custom--transition-normal);\n}\n\n& .cat-item a:hover {\nbackground-color: var(--wp--preset--color--secondary-container);\n}\n\n& .cat-item.current-cat a {\nbackground-color: var(--wp--preset--color--secondary-container);\n}"
+			},
 			"core/code": {
 				"border": {
 					"radius": {
@@ -1129,6 +1140,15 @@
 					"blockGap": "var(--wp--preset--spacing--normal)",
 					"padding": "0px"
 				}
+			},
+			"core/comments-pagination-next": {
+				"css": "align-content: center;\ntext-decoration: none;\n\nmin-height: 48px;\npadding: 0px var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--large);\ncolor: var(--wp--preset--color--on-secondary);\nbackground-color: var(--wp--preset--color--secondary);\ntransition: var(--wp--custom--transition-normal);\nline-height: 1;\n\n&:hover {\nopacity: 0.8;\n}\n\n&:active {\nopacity: 0.6;\n}"
+			},
+			"core/comments-pagination-numbers": {
+				"css": "& .page-numbers {\ntext-decoration: none !important;\ncolor: var(--wp--preset--color--on-surface);\nbackground-color: var(--wp--preset--color--surface-container);\npadding: var(--wp--preset--spacing--small) var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--large);\ntransition: background-color var(--wp--custom--transition-normal);\n}\n\n& .page-numbers:hover {\ncolor: var(--wp--preset--color--on-secondary-container);\nbackground-color: var(--wp--preset--color--secondary-container);\n}\n\n& .page-numbers.current {\ncolor: var(--wp--preset--color--on-tertiary-container);\nbackground-color: var(--wp--preset--color--tertiary-container);\n}\n\n& .page-numbers.dots{\nbackground-color: transparent;\n}"
+			},
+			"core/comments-pagination-previous": {
+				"css": "align-content: center;\ntext-decoration: none;\n\nmin-height: 48px;\npadding: 0px var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--large);\ncolor: var(--wp--preset--color--on-secondary);\nbackground-color: var(--wp--preset--color--secondary);\ntransition: var(--wp--custom--transition-normal);\nline-height: 1;\n\n&:hover {\nopacity: 0.8;\n}\n\n&:active {\nopacity: 0.6;\n}"
 			},
 			"core/cover": {
 				"border": {
@@ -1314,10 +1334,17 @@
 					"fontSize": "var(--wp--preset--font-size--headline-large)"
 				}
 			},
+			"core/query-pagination-next": {
+				"css": "align-content: center;\ntext-decoration: none;\n\nmin-height: 48px;\npadding: 0px var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--large);\ncolor: var(--wp--preset--color--on-secondary);\nbackground-color: var(--wp--preset--color--secondary);\ntransition: var(--wp--custom--transition-normal);\nline-height: 1;\n\n&:hover {\nopacity: 0.8;\n}\n\n&:active {\nopacity: 0.6;\n}"
+			},
 			"core/query-pagination-numbers": {
+				"css": "& .page-numbers {\ntext-decoration: none !important;\ncolor: var(--wp--preset--color--on-surface);\nbackground-color: var(--wp--preset--color--surface-container);\npadding: var(--wp--preset--spacing--small) var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--large);\ntransition: background-color var(--wp--custom--transition-normal);\n}\n\n& .page-numbers:hover {\ncolor: var(--wp--preset--color--on-secondary-container);\nbackground-color: var(--wp--preset--color--secondary-container);\n}\n\n& .page-numbers.current {\ncolor: var(--wp--preset--color--on-tertiary-container);\nbackground-color: var(--wp--preset--color--tertiary-container);\n}\n\n& .page-numbers.dots{\nbackground-color: transparent;\n}",
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--body-large)"
 				}
+			},
+			"core/query-pagination-previous": {
+				"css": "align-content: center;\ntext-decoration: none;\n\nmin-height: 48px;\npadding: 0px var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--large);\ncolor: var(--wp--preset--color--on-secondary);\nbackground-color: var(--wp--preset--color--secondary);\ntransition: var(--wp--custom--transition-normal);\nline-height: 1;\n\n&:hover {\nopacity: 0.8;\n}\n\n&:active {\nopacity: 0.6;\n}"
 			},
 			"core/quote": {
 				"border": {

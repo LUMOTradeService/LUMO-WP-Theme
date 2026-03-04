@@ -23,7 +23,7 @@
 <h4 class="wp-block-heading has-text-align-left"><?php esc_html_e('Rychlé odkazy', 'lumopos');?></h4>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ref":6,"overlayMenu":"never","style":{"spacing":{"blockGap":"8px"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical","justifyContent":"left","flexWrap":"nowrap"}} /--></div>
+<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"8px"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical","justifyContent":"left","flexWrap":"nowrap"}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -31,7 +31,7 @@
 <h4 class="wp-block-heading has-text-align-left"><?php esc_html_e('Péče o zákazníka', 'lumopos');?></h4>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ref":6,"overlayMenu":"never","style":{"spacing":{"blockGap":"8px"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical","justifyContent":"left","flexWrap":"nowrap"}} /--></div>
+<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"8px"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical","justifyContent":"left","flexWrap":"nowrap"}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"flex","orientation":"vertical"}} -->

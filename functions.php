@@ -12,6 +12,8 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 add_action( 'init', 'lumopos_add_support');
 function lumopos_add_support() {
     add_post_type_support( 'page', 'excerpt' );
+
+	wp_enqueue_style( 'my-theme-style', get_template_directory_uri() . "/assets/styles/grid.css" );
 }
 
 function lumopos_block_editor_assets()

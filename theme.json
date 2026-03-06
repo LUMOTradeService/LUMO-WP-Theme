@@ -654,9 +654,29 @@
 					"slug": "on-surface-variant"
 				},
 				{
+					"color": "#DFE4DC",
+					"name": "Surface container lowest",
+					"slug": "surface-container-lowest"
+				},
+				{
+					"color": "#DFE4DC",
+					"name": "Surface container low",
+					"slug": "surface-container-low"
+				},
+				{
 					"color": "#EBEFE7",
 					"name": "Surface container",
 					"slug": "surface-container"
+				},
+				{
+					"color": "#DFE4DC",
+					"name": "Surface container high",
+					"slug": "surface-container-high"
+				},
+				{
+					"color": "#DFE4DC",
+					"name": "Surface container highest",
+					"slug": "surface-container-highest"
 				}
 			]
 		},
@@ -1465,6 +1485,26 @@
 				},
 				"color": {
 					"text": "var(--wp--preset--color--tertiary)"
+				}
+			},
+			"textInput": {
+				"css": "min-height: 48px; transition: background-color var(--wp--custom--transition-normal); &:hover {\nbackground-color: var(--wp--preset--color--secondary-container);\n}\n&::placeholder {\ncolor: var(--wp--preset--color--on-surface-variant)\n}\n&:active {\nbackground-color: var(--wp--preset--color--surface-container-high);\n}\n&:focus {\nbackground-color: var(--wp--preset--color--secondary-container);\n}",
+				"border": {
+					"width": "0px",
+					"radius": "var(--wp--preset--border-radius--small)"
+				},
+				"spacing": {
+					"padding": {
+						"left": "var(--wp--preset--spacing--normal)",
+						"right": "var(--wp--preset--spacing--normal)"
+					}
+				},
+				"color": {
+					"background": "var(--wp--preset--color--surface-container-highest)",
+					"text": "var(--wp--preset--color--on-surface)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--label-large)"
 				}
 			}
 		},

@@ -2,19 +2,6 @@
     --wpforms-label-error-color: var(--wp--preset--color--error);
 }
 
-@media (max-width: 839px) {
-    .wp-block-group.is-layout-grid {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
-    .wp-block-group.is-layout-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
 textarea {
     padding: 14px 0px;
 }
@@ -111,5 +98,49 @@ form,
 
     &:active {
         opacity: 0.6;
+    }
+}
+
+@media (max-width: 1200px) {
+    header {
+        .wp-block-site-logo {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .wp-block-navigation {
+        &:not(.is-responsive) {
+            position: absolute;
+            visibility: hidden;
+        }
+    }
+}
+
+@media (min-width: 1201px) {
+    .wp-block-navigation {
+        &:has(.always-shown) {
+            position: absolute;
+            visibility: hidden;
+        }
+    }
+}
+
+@media (min-width: 840px) and (max-width: 1200px) {
+    .wp-block-group.is-layout-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 839px) {
+    header {
+        .wp-block-buttons {
+            visibility: hidden;
+        }
+    }
+    .wp-block-group.is-layout-grid {
+        display: flex;
+        flex-direction: column;
     }
 }

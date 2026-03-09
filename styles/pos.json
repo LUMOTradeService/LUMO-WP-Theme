@@ -1,127 +1,127 @@
 {
     "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"version": 3,
-	"title": "Energy",
+	"title": "POS",
 	"settings": {
 		"color": {
 			"palette": [
                 {
                     "name": "Primary",
-                    "color": "#326941",
+                    "color": "#B5C4FF",
                     "slug": "primary"
                 },
                 {
                     "name": "On primary",
-                    "color": "#FFFFFF",
+                    "color": "#1C2D61",
                     "slug": "on-primary"
                 },
                 {
                     "name": "Primary container",
-                    "color": "#B4F1BD",
+                    "color": "#344479",
                     "slug": "primary-container"
                 },
                 {
                     "name": "On primary container",
-                    "color": "#18512B",
+                    "color": "#DCE1FF",
                     "slug": "on-primary-container"
                 },
                 {
                     "name": "Secondary",
-                    "color": "#506352",
+                    "color": "#C1C5DD",
                     "slug": "secondary"
                 },
                 {
                     "name": "On secondary",
-                    "color": "#FFFFFF",
+                    "color": "#2B3042",
                     "slug": "on-secondary"
                 },
                 {
                     "name": "Secondary container",
-                    "color": "#D3E8D2",
+                    "color": "#414659",
                     "slug": "secondary-container"
                 },
                 {
                     "name": "On secondary container",
-                    "color": "#394B3B",
+                    "color": "#DDE1F9",
                     "slug": "on-secondary-container"
                 },
                 {
                     "name": "Tertiary",
-                    "color": "#3A656E",
+                    "color": "#E2BADB",
                     "slug": "tertiary"
                 },
                 {
                     "name": "On tertiary",
-                    "color": "#FFFFFF",
+                    "color": "#432740",
                     "slug": "on-tertiary"
                 },
                 {
                     "name": "Tertiary container",
-                    "color": "#BDEAF5",
+                    "color": "#5B3D57",
                     "slug": "tertiary-container"
                 },
                 {
                     "name": "On tertiary container",
-                    "color": "#204D55",
+                    "color": "#FFD7F7",
                     "slug": "on-tertiary-container"
                 },
                 {
                     "name": "Error",
-                    "color": "#BA1A1A",
+                    "color": "#FFB4AB",
                     "slug": "error"
                 },
                 {
                     "name": "On error",
-                    "color": "#FFFFFF",
+                    "color": "#690005",
                     "slug": "on-error"
                 },
                 {
                     "name": "Error container",
-                    "color": "#FFDAD6",
+                    "color": "#93000A",
                     "slug": "error-container"
                 },
                 {
                     "name": "On error container",
-                    "color": "#93000A",
+                    "color": "#FFDAD6",
                     "slug": "on-error-container"
                 },
                 {
                     "name": "Surface",
-                    "color": "#F6FBF2",
+                    "color": "#121318",
                     "slug": "surface"
                 },
                 {
                     "name": "On surface",
-                    "color": "#181D18",
+                    "color": "#E3E1E9",
                     "slug": "on-surface"
                 },
                 {
                     "name": "On surface variant",
-                    "color": "#414941",
+                    "color": "#C6C6D0",
                     "slug": "on-surface-variant"
                 },
 				{
-					"color": "#DFE4DC",
+					"color": "#0D0E13",
 					"name": "Surface container lowest",
 					"slug": "surface-container-lowest"
 				},
 				{
-					"color": "#DFE4DC",
+					"color": "#1A1B21",
 					"name": "Surface container low",
 					"slug": "surface-container-low"
 				},
 				{
-					"color": "#EBEFE7",
+					"color": "#1E1F25",
 					"name": "Surface container",
 					"slug": "surface-container"
 				},
 				{
-					"color": "#DFE4DC",
+					"color": "#292A2F",
 					"name": "Surface container high",
 					"slug": "surface-container-high"
 				},
 				{
-					"color": "#DFE4DC",
+					"color": "#34343A",
 					"name": "Surface container highest",
 					"slug": "surface-container-highest"
 				}

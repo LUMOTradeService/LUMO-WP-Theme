@@ -25,3 +25,5 @@ function lumopos_register_block_styles() {
 		}'
     ) );
 }
+
+require get_parent_theme_file_path('/inc/blocks/icons/icons.php');

@@ -1243,6 +1243,10 @@
 				"css": "display: flex;\ngap: var(--wp--preset--spacing--extra-small);",
 				"typography": {
 					"lineHeight": "1"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--on-surface)",
+					"background": "var(--wp--preset--color--surface-container)"
 				}
 			},
 			"core/paragraph": {

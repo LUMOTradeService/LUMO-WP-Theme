@@ -10,7 +10,7 @@
 
 <!-- wp:site-logo {"width":250} /-->
 
-<!-- wp:navigation {"overlayMenu":"never","icon":"menu","overlayBackgroundColor":"base","overlayTextColor":"contrast","layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap"}} /-->
+<!-- wp:navigation {"overlayMenu":"never","icon":"menu","overlayBackgroundColor":"surface-container","overlayTextColor":"on-surface","layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap"}} /-->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->

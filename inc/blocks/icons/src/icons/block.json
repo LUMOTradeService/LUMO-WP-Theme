@@ -15,6 +15,17 @@
 		"iconName": {
 			"type": "string",
 			"default": "check"
+		},
+		"customIconUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"customIconId": {
+			"type": "number"
+		},
+		"useCustomIcon": {
+			"type": "boolean",
+			"default": false
 		}
 	},
 	"textdomain": "icons",

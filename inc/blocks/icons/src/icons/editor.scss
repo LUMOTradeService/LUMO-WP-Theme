@@ -4,6 +4,10 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-/*.wp-block-lumopos-icons {
-	
-}*/
+.components-panel__body .components-button {
+    &.is-secondary {
+        /* Pokud chceš všechna sekundární tlačítka v panelu mít přes celou šířku */
+        width: 100%;
+        justify-content: center;
+    }
+}

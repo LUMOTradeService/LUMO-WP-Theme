@@ -18,13 +18,17 @@ import { useBlockProps } from '@wordpress/block-editor';
  * @return {Element} Element to render.
  */
 export default function save({ attributes }) {
-	const { iconName } = attributes;
-    const SelectedIcon = Icons[iconName]?.component || Icons.check.component;
+	const { iconName, customIconUrl, useCustomIcon } = attributes;
+	const SelectedIcon = Icons[iconName]?.component || Icons.check.component;
 
 	return (
-		<div { ...useBlockProps.save() }>
-			{ 
-				<SelectedIcon width="48px" height="48px"/>
+		<div {...useBlockProps.save()}>
+			{
+				useCustomIcon && customIconUrl ? (
+					<object src={customIconUrl} style={{ width: '48px', height: "48px" }} />
+				) : (
+					<SelectedIcon width="48px" height="48px" />
+				)
 			}
 		</div>
 	);

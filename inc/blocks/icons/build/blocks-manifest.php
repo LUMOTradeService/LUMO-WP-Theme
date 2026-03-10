@@ -20,6 +20,17 @@ return array(
 			'iconName' => array(
 				'type' => 'string',
 				'default' => 'check'
+			),
+			'customIconUrl' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'customIconId' => array(
+				'type' => 'number'
+			),
+			'useCustomIcon' => array(
+				'type' => 'boolean',
+				'default' => false
 			)
 		),
 		'textdomain' => 'icons',

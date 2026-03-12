@@ -5,7 +5,7 @@
 	"slug": "group-tertiary",
 	"blockTypes": ["core/group"],
 	"styles": {
-        "css": "overflow: hidden; & .wp-block-heading { color: var(--wp--preset--color--on-tertiary-container) }",
+        "css": "overflow: hidden; & .wp-block-heading {\ncolor: var(--wp--preset--color--on-tertiary-container)\nmin-height: 2.45em;\n}",
         "color": {
             "background": "var(--wp--preset--color--tertiary-container)"
         }

@@ -5,7 +5,7 @@
 	"slug": "group-primary",
 	"blockTypes": ["core/group"],
 	"styles": {
-        "css": "overflow: hidden; & .wp-block-heading { color: var(--wp--preset--color--on-primary-container) }",
+        "css": "overflow: hidden; & .wp-block-heading {\ncolor: var(--wp--preset--color--on-primary-container)\nmin-height: 2.45em;\n}",
         "color": {
             "background": "var(--wp--preset--color--primary-container)"
         }

@@ -12,8 +12,6 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 add_action( 'init', 'lumopos_add_support');
 function lumopos_add_support() {
     add_post_type_support( 'page', 'excerpt' );
-
-	//wp_enqueue_style( 'my-theme-style', get_template_directory_uri() . "/assets/styles/shared.css" );
 }
 
 function lumopos_block_editor_assets()
@@ -32,4 +30,4 @@ function lumopos_block_editor_assets()
 }
 add_action('enqueue_block_editor_assets', 'lumopos_block_editor_assets');
 
-require get_parent_theme_file_path('inc/block-styles.php');
+require get_parent_theme_file_path('blocks/blocks.php');

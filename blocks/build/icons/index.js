@@ -730,7 +730,7 @@ module.exports = window["wp"]["i18n"];
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"lumopos/icons","version":"1.0.0","title":"Icons","category":"design","icon":"nametag","description":"Show icons on your website.","example":{},"supports":{"html":false},"attributes":{"iconName":{"type":"string","default":"check"},"customIconUrl":{"type":"string","default":""},"customIconId":{"type":"number"},"useCustomIcon":{"type":"boolean","default":false}},"textdomain":"icons","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"lumopos/icon","version":"1.0.0","title":"Icons","category":"design","icon":"nametag","description":"Show icon on your website.","example":{},"supports":{"html":false},"attributes":{"iconName":{"type":"string","default":"check"},"customIconUrl":{"type":"string","default":""},"customIconId":{"type":"number"},"useCustomIcon":{"type":"boolean","default":false}},"textdomain":"blocks","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
 
 /***/ }
 
@@ -891,7 +891,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/tru
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = globalThis["webpackChunkicons"] = globalThis["webpackChunkicons"] || [];
+/******/ 		var chunkLoadingGlobal = globalThis["webpackChunkblocks"] = globalThis["webpackChunkblocks"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();

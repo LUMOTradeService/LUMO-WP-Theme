@@ -4,12 +4,12 @@ return array(
 	'icons' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'lumopos/icons',
+		'name' => 'lumopos/icon',
 		'version' => '1.0.0',
 		'title' => 'Icons',
 		'category' => 'design',
 		'icon' => 'nametag',
-		'description' => 'Show icons on your website.',
+		'description' => 'Show icon on your website.',
 		'example' => array(
 			
 		),
@@ -33,7 +33,7 @@ return array(
 				'default' => false
 			)
 		),
-		'textdomain' => 'icons',
+		'textdomain' => 'blocks',
 		'editorScript' => 'file:./index.js',
 		'editorStyle' => 'file:./index.css',
 		'style' => 'file:./style-index.css',

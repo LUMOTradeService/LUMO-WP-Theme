@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: home
- * Slug: lumopos/home
+ * Slug: lumo-wp-theme/home
  * Inserter: no
  */
 ?>
@@ -12,11 +12,11 @@
 <div class="wp-block-columns is-style-columns-rounded"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|normal","padding":{"right":"var:preset|spacing|large","left":"var:preset|spacing|large"}}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center","justifyContent":"left"}} -->
 <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:heading {"level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|on-primary-container"}}}},"textColor":"on-primary-container"} -->
-<h1 class="wp-block-heading has-on-primary-container-color has-text-color has-link-color"><?php esc_html_e('Blog', 'lumopos');?></h1>
+<h1 class="wp-block-heading has-on-primary-container-color has-text-color has-link-color"><?php esc_html_e('Blog', 'lumo-wp-theme');?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"display-small"} -->
-<p class="has-display-small-font-size"><?php esc_html_e('Say something about your blog.', 'lumopos');?></p>
+<p class="has-display-small-font-size"><?php esc_html_e('Say something about your blog.', 'lumo-wp-theme');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -57,7 +57,7 @@
 <div class="wp-block-group is-style-group-secondary" style="padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph {"placeholder":"Přidejte text nebo bloky, které se zobrazí, když dotaz nevrátí žádné výsledky."} -->
-<p><?php esc_html_e('Žádné příspěvky k zobrazení.', 'lumopos');?></p>
+<p><?php esc_html_e('Žádné příspěvky k zobrazení.', 'lumo-wp-theme');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 

@@ -42,7 +42,7 @@
 <div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never"} /-->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('© 2026 LUMO trade service s.r.o. Všechna práva vyhrazena.', 'lumo-wp-theme');?></p>
+<p><?php esc_html_e('© 2026 LUMO trade service s.r.o. All rights reserved.', 'lumo-wp-theme');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

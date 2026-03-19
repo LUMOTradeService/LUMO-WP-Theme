@@ -14,6 +14,10 @@ function lumopos_add_support() {
     add_post_type_support( 'page', 'excerpt' );
 }
 
+add_action('after_setup_theme', function() {
+    remove_theme_support('core-block-patterns');
+});
+
 function lumopos_block_editor_assets()
 {
 	wp_enqueue_script(

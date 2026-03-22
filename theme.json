@@ -1370,13 +1370,17 @@
 					"fontSize": "var(--wp--preset--font-size--headline-large)"
 				}
 			},
+			"core/query-pagination": {
+				"css": "padding: var(--wp--preset--spacing--extra-small);"
+			},
 			"core/query-pagination-next": {
 				"css": "align-content: center;\ntext-decoration: none;\n\nmin-height: 48px;\npadding: 0px var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--large);\ncolor: var(--wp--preset--color--on-secondary);\nbackground-color: var(--wp--preset--color--secondary);\ntransition: var(--wp--custom--transition-normal);\nline-height: 1;\n\n&:hover {\nopacity: 0.8;\n}\n\n&:active {\nopacity: 0.6;\n}"
 			},
 			"core/query-pagination-numbers": {
-				"css": "& .page-numbers {\ntext-decoration: none !important;\ncolor: var(--wp--preset--color--on-surface);\nbackground-color: var(--wp--preset--color--surface-container);\npadding: var(--wp--preset--spacing--small) var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--large);\ntransition: background-color var(--wp--custom--transition-normal);\n}\n\n& .page-numbers:hover {\ncolor: var(--wp--preset--color--on-secondary-container);\nbackground-color: var(--wp--preset--color--secondary-container);\n}\n\n& .page-numbers.current {\ncolor: var(--wp--preset--color--on-tertiary-container);\nbackground-color: var(--wp--preset--color--tertiary-container);\n}\n\n& .page-numbers.dots{\nbackground-color: transparent;\n}",
+				"css": "& .page-numbers {\ntext-decoration: none !important;\ncolor: var(--wp--preset--color--on-surface);\nbackground-color: var(--wp--preset--color--surface-container);\npadding: var(--wp--preset--spacing--small) var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--small);\ntransition: background-color var(--wp--custom--transition-normal);\n}\n\n& .page-numbers:hover {\ncolor: var(--wp--preset--color--on-secondary-container);\nbackground-color: var(--wp--preset--color--secondary-container);\n}\n\n& .page-numbers.current {\ncolor: var(--wp--preset--color--on-tertiary-container);\nbackground-color: var(--wp--preset--color--tertiary-container);\n}\n\n& .page-numbers.dots{\nbackground-color: transparent;\n}",
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--body-large)"
+					"fontSize": "var(--wp--preset--font-size--body-large)",
+					"lineHeight": "1"
 				}
 			},
 			"core/query-pagination-previous": {

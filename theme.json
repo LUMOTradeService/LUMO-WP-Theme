@@ -4,522 +4,6 @@
 	"customTemplates": [],
 	"settings": {
 		"appearanceTools": true,
-		"blocks": {
-			"core/image": {
-				"appearanceTools": true,
-				"border": {
-					"radiusSizes": [
-						{
-							"name": "Extra small",
-							"size": "4px",
-							"slug": "extra-small"
-						},
-						{
-							"name": "Small",
-							"size": "8px",
-							"slug": "small"
-						},
-						{
-							"name": "Normal",
-							"size": "16px",
-							"slug": "normal"
-						},
-						{
-							"name": "Large",
-							"size": "24px",
-							"slug": "large"
-						},
-						{
-							"name": "Extra large",
-							"size": "48px",
-							"slug": "extra-large"
-						}
-					]
-				},
-				"color": {
-					"background": false,
-					"custom": false,
-					"customDuotone": false,
-					"customGradient": false,
-					"defaultDuotone": false,
-					"defaultGradients": false,
-					"defaultPalette": false,
-					"duotone": [],
-					"gradients": [],
-					"palette": [
-						{
-							"color": "#326941",
-							"name": "Primary",
-							"slug": "primary"
-						},
-						{
-							"color": "#FFFFFF",
-							"name": "On primary",
-							"slug": "on-primary"
-						},
-						{
-							"color": "#B4F1BD",
-							"name": "Primary container",
-							"slug": "primary-container"
-						},
-						{
-							"color": "#18512B",
-							"name": "On primary container",
-							"slug": "on-primary-container"
-						},
-						{
-							"color": "#506352",
-							"name": "Secondary",
-							"slug": "secondary"
-						},
-						{
-							"color": "#FFFFFF",
-							"name": "On secondary",
-							"slug": "on-secondary"
-						},
-						{
-							"color": "#D3E8D2",
-							"name": "Secondary container",
-							"slug": "secondary-container"
-						},
-						{
-							"color": "#394B3B",
-							"name": "On secondary container",
-							"slug": "on-secondary-container"
-						},
-						{
-							"color": "#3A656E",
-							"name": "Tertiary",
-							"slug": "tertiary"
-						},
-						{
-							"color": "#FFFFFF",
-							"name": "On tertiary",
-							"slug": "on-tertiary"
-						},
-						{
-							"color": "#BDEAF5",
-							"name": "Tertiary container",
-							"slug": "tertiary-container"
-						},
-						{
-							"color": "#204D55",
-							"name": "On tertiary container",
-							"slug": "on-tertiary-container"
-						},
-						{
-							"color": "#BA1A1A",
-							"name": "Error",
-							"slug": "error"
-						},
-						{
-							"color": "#FFFFFF",
-							"name": "On error",
-							"slug": "on-error"
-						},
-						{
-							"color": "#FFDAD6",
-							"name": "Error container",
-							"slug": "error-container"
-						},
-						{
-							"color": "#93000A",
-							"name": "On error container",
-							"slug": "on-error-container"
-						},
-						{
-							"color": "#F6FBF2",
-							"name": "Surface",
-							"slug": "surface"
-						},
-						{
-							"color": "#181D18",
-							"name": "On surface",
-							"slug": "on-surface"
-						},
-						{
-							"color": "#414941",
-							"name": "On surface variant",
-							"slug": "on-surface-variant"
-						},
-						{
-							"color": "#EBEFE7",
-							"name": "Surface container",
-							"slug": "surface-container"
-						}
-					],
-					"text": true
-				},
-				"custom": {
-					"hover-opacity": "0.8",
-					"transition-normal": "200ms"
-				},
-				"layout": {
-					"contentSize": "1400px",
-					"wideSize": "1400px"
-				},
-				"lightbox": {
-					"allowEditing": true,
-					"enabled": true
-				},
-				"shadow": {
-					"defaultPresets": true,
-					"presets": []
-				},
-				"spacing": {
-					"customSpacingSize": true,
-					"defaultSpacingSizes": true,
-					"spacingScale": {
-						"default": {
-							"increment": 1.5,
-							"mediumStep": 1.5,
-							"operator": "*",
-							"steps": 7,
-							"unit": "rem"
-						}
-					},
-					"spacingSizes": [
-						{
-							"name": "Extra small",
-							"size": "4px",
-							"slug": "extra-small"
-						},
-						{
-							"name": "Small",
-							"size": "8px",
-							"slug": "small"
-						},
-						{
-							"name": "Normal",
-							"size": "16px",
-							"slug": "normal"
-						},
-						{
-							"name": "Large",
-							"size": "24px",
-							"slug": "large"
-						},
-						{
-							"name": "Extra large",
-							"size": "48px",
-							"slug": "extra-large"
-						}
-					],
-					"units": [
-						"%",
-						"px",
-						"vh",
-						"vw"
-					]
-				},
-				"typography": {
-					"customFontSize": true,
-					"defaultFontSizes": true,
-					"dropCap": true,
-					"fluid": true,
-					"fontFamilies": [
-						{
-							"fontFace": [
-								{
-									"fontFamily": "Comfortaa",
-									"fontStyle": "normal",
-									"fontWeight": "300",
-									"src": [
-										"file:./assets/fonts/comfortaa/comfortaa-300-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Comfortaa",
-									"fontStyle": "normal",
-									"fontWeight": "400",
-									"src": [
-										"file:./assets/fonts/comfortaa/comfortaa-400-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Comfortaa",
-									"fontStyle": "normal",
-									"fontWeight": "500",
-									"src": [
-										"file:./assets/fonts/comfortaa/comfortaa-500-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Comfortaa",
-									"fontStyle": "normal",
-									"fontWeight": "600",
-									"src": [
-										"file:./assets/fonts/comfortaa/comfortaa-600-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Comfortaa",
-									"fontStyle": "normal",
-									"fontWeight": "700",
-									"src": [
-										"file:./assets/fonts/comfortaa/comfortaa-700-normal.woff2"
-									]
-								}
-							],
-							"fontFamily": "Comfortaa, system-ui",
-							"name": "Comfortaa",
-							"slug": "comfortaa"
-						},
-						{
-							"fontFace": [
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "normal",
-									"fontWeight": "100",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-100-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "normal",
-									"fontWeight": "200",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-200-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "normal",
-									"fontWeight": "300",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-300-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "normal",
-									"fontWeight": "400",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-400-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "normal",
-									"fontWeight": "500",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-500-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "normal",
-									"fontWeight": "600",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-600-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "normal",
-									"fontWeight": "700",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-700-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "normal",
-									"fontWeight": "800",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-800-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "normal",
-									"fontWeight": "900",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-900-normal.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "italic",
-									"fontWeight": "100",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-100-italic.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "italic",
-									"fontWeight": "200",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-200-italic.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "italic",
-									"fontWeight": "300",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-300-italic.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "italic",
-									"fontWeight": "400",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-400-italic.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "italic",
-									"fontWeight": "500",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-500-italic.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "italic",
-									"fontWeight": "600",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-600-italic.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "italic",
-									"fontWeight": "700",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-700-italic.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "italic",
-									"fontWeight": "800",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-800-italic.woff2"
-									]
-								},
-								{
-									"fontFamily": "Montserrat",
-									"fontStyle": "italic",
-									"fontWeight": "900",
-									"src": [
-										"file:./assets/fonts/montserrat/montserrat-900-italic.woff2"
-									]
-								}
-							],
-							"fontFamily": "Montserrat, sans-serif",
-							"name": "Montserrat",
-							"slug": "montserrat"
-						}
-					],
-					"fontSizes": [
-						{
-							"fluid": false,
-							"name": "Body Small",
-							"size": "12px",
-							"slug": "body-small"
-						},
-						{
-							"fluid": false,
-							"name": "Body Medium",
-							"size": "14px",
-							"slug": "body-medium"
-						},
-						{
-							"fluid": false,
-							"name": "Body Large",
-							"size": "16px",
-							"slug": "body-large"
-						},
-						{
-							"fluid": false,
-							"name": "Label Small",
-							"size": "11px",
-							"slug": "label-small"
-						},
-						{
-							"fluid": false,
-							"name": "Label Medium",
-							"size": "12px",
-							"slug": "label-medium"
-						},
-						{
-							"fluid": false,
-							"name": "Label Large",
-							"size": "14px",
-							"slug": "label-large"
-						},
-						{
-							"fluid": false,
-							"name": "Title Small",
-							"size": "14px",
-							"slug": "title-small"
-						},
-						{
-							"fluid": false,
-							"name": "Title Medium",
-							"size": "16px",
-							"slug": "title-medium"
-						},
-						{
-							"fluid": false,
-							"name": "Title Large",
-							"size": "22px",
-							"slug": "title-large"
-						},
-						{
-							"fluid": false,
-							"name": "Headline Small",
-							"size": "24px",
-							"slug": "headline-small"
-						},
-						{
-							"fluid": false,
-							"name": "Headline Medium",
-							"size": "28px",
-							"slug": "headline-medium"
-						},
-						{
-							"fluid": false,
-							"name": "Headline Large",
-							"size": "32px",
-							"slug": "headline-large"
-						},
-						{
-							"fluid": false,
-							"name": "Display Small",
-							"size": "36px",
-							"slug": "display-small"
-						},
-						{
-							"fluid": false,
-							"name": "Display Medium",
-							"size": "45px",
-							"slug": "display-medium"
-						},
-						{
-							"fluid": false,
-							"name": "Display Large",
-							"size": "57px",
-							"slug": "display-large"
-						}
-					],
-					"fontStyle": true,
-					"fontWeight": true,
-					"letterSpacing": true,
-					"textAlign": true,
-					"textDecoration": true,
-					"textTransform": true,
-					"writingMode": false
-				},
-				"useRootPaddingAwareAlignments": false
-			}
-		},
 		"border": {
 			"radiusSizes": [
 				{
@@ -534,18 +18,38 @@
 				},
 				{
 					"name": "Normal",
-					"size": "16px",
+					"size": "12px",
 					"slug": "normal"
 				},
 				{
 					"name": "Large",
-					"size": "24px",
+					"size": "16px",
 					"slug": "large"
 				},
 				{
+					"name": "Large increased",
+					"size": "20px",
+					"slug": "large-increased"
+				},
+				{
 					"name": "Extra large",
-					"size": "48px",
+					"size": "28px",
 					"slug": "extra-large"
+				},
+				{
+					"name": "Extra large increased",
+					"size": "32px",
+					"slug": "extra-large-increased"
+				},
+				{
+					"name": "Extra extra large",
+					"size": "48px",
+					"slug": "extra-extra-large"
+				},
+				{
+					"name": "Full",
+					"size": "1000px",
+					"slug": "full"
 				}
 			]
 		},
@@ -681,15 +185,36 @@
 			]
 		},
 		"custom": {
+			"active-opacity": "0.6",
+			"extra-small-height": "32px",
 			"hover-opacity": "0.8",
+			"medium-height": "56px",
+			"small-height": "40px",
 			"transition-normal": "200ms"
 		},
 		"layout": {
 			"contentSize": "1400px",
 			"wideSize": "1400px"
 		},
+		"shadow": {
+			"defaultPresets": false,
+			"presets": [
+				{
+					"name": "Normal",
+					"shadow": "0px 8px 8px 0px rgba(0, 0, 0, 0.2)",
+					"slug": "shadow-1"
+				}
+			]
+		},
 		"spacing": {
+			"customSpacingSize": false,
+			"defaultSpacingSizes": false,
 			"spacingSizes": [
+				{
+					"name": "Extra extra small",
+					"size": "2px",
+					"slug": "extra-extra-small"
+				},
 				{
 					"name": "Extra small",
 					"size": "4px",
@@ -702,18 +227,33 @@
 				},
 				{
 					"name": "Normal",
-					"size": "16px",
+					"size": "12px",
 					"slug": "normal"
 				},
 				{
 					"name": "Large",
-					"size": "24px",
+					"size": "16px",
 					"slug": "large"
 				},
 				{
+					"name": "Large increased",
+					"size": "20px",
+					"slug": "large-increased"
+				},
+				{
 					"name": "Extra large",
-					"size": "48px",
+					"size": "28px",
 					"slug": "extra-large"
+				},
+				{
+					"name": "Extra large increased",
+					"size": "32px",
+					"slug": "extra-large-increased"
+				},
+				{
+					"name": "Extra extra large",
+					"size": "48px",
+					"slug": "extra-extra-large"
 				}
 			],
 			"units": [
@@ -1101,7 +641,18 @@
 				}
 			},
 			"core/button": {
-				"css": "user-select: none;\ndisplay: flex;\nalign-items: center;\nline-height: 1;\njustify-content: center;\nmin-height: var(--wp--preset--spacing--extra-large);\ntransition: opacity var(--wp--custom--transition-normal); \n&:hover { opacity: 0.8; } \n&:active { opacity: 0.6 }"
+				"border": {
+					"radius": {
+						"bottomLeft": "var(--wp--preset--border-radius--extra-large)",
+						"bottomRight": "var(--wp--preset--border-radius--extra-large)",
+						"topLeft": "var(--wp--preset--border-radius--extra-large)",
+						"topRight": "var(--wp--preset--border-radius--extra-large)"
+					}
+				},
+				"css": "user-select: none;\ndisplay: flex;\nalign-items: center;\njustify-content: center;\nmin-height: var(--wp--custom--medium-height);\ntransition: opacity var(--wp--custom--transition-normal); \n&:hover { opacity: 0.8; } \n&:active { opacity: 0.6 }",
+				"typography": {
+					"lineHeight": "1"
+				}
 			},
 			"core/buttons": {
 				"spacing": {
@@ -1204,7 +755,12 @@
 			},
 			"core/group": {
 				"border": {
-					"radius": "var(--wp--preset--border-radius--large)"
+					"radius": {
+						"bottomLeft": "var(--wp--preset--border-radius--extra-large-increased)",
+						"bottomRight": "var(--wp--preset--border-radius--extra-large-increased)",
+						"topLeft": "var(--wp--preset--border-radius--extra-large-increased)",
+						"topRight": "var(--wp--preset--border-radius--extra-large-increased)"
+					}
 				},
 				"css": "",
 				"spacing": {
@@ -1214,7 +770,12 @@
 			},
 			"core/image": {
 				"border": {
-					"radius": "var(--wp--preset--border-radius--large)"
+					"radius": {
+						"bottomLeft": "var(--wp--preset--border-radius--normal)",
+						"bottomRight": "var(--wp--preset--border-radius--normal)",
+						"topLeft": "var(--wp--preset--border-radius--normal)",
+						"topRight": "var(--wp--preset--border-radius--normal)"
+					}
 				}
 			},
 			"core/list": {
@@ -1295,6 +856,30 @@
 					}
 				}
 			},
+			"core/post-author-name": {
+				"color": {
+					"text": "var(--wp--preset--color--on-surface-variant)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--on-surface-variant)"
+						}
+					}
+				}
+			},
+			"core/post-date": {
+				"color": {
+					"text": "var(--wp--preset--color--on-surface-variant)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--on-surface-variant)"
+						}
+					}
+				}
+			},
 			"core/post-excerpt": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--body-large)"
@@ -1302,19 +887,24 @@
 			},
 			"core/post-featured-image": {
 				"border": {
-					"radius": "var(--wp--preset--border-radius--large)"
+					"radius": {
+						"bottomLeft": "var(--wp--preset--border-radius--large-increased)",
+						"bottomRight": "var(--wp--preset--border-radius--large-increased)",
+						"topLeft": "var(--wp--preset--border-radius--large-increased)",
+						"topRight": "var(--wp--preset--border-radius--large-increased)"
+					}
 				}
 			},
 			"core/post-template": {
 				"border": {
 					"radius": {
-						"bottomLeft": "var(--wp--preset--border-radius--large)",
-						"bottomRight": "var(--wp--preset--border-radius--large)",
-						"topLeft": "var(--wp--preset--border-radius--large)",
-						"topRight": "var(--wp--preset--border-radius--large)"
+						"bottomLeft": "var(--wp--preset--border-radius--extra-large-increased)",
+						"bottomRight": "var(--wp--preset--border-radius--extra-large-increased)",
+						"topLeft": "var(--wp--preset--border-radius--extra-large-increased)",
+						"topRight": "var(--wp--preset--border-radius--extra-large-increased)"
 					}
 				},
-				"css": "overflow: hidden;\nheight: 100%;\n\n& .wp-block-post {\nheight: 100%;\noverflow: hidden;\nbackground-color: var(--wp--preset--color--surface-container);\nborder-radius: var(--wp--preset--border-radius--large);\ntransition: opacity var(--wp--custom--transition-normal),\nbackground-color var(--wp--custom--transition-normal);\n}\n\n& .wp-block-post:hover {\nbackground-color: var(--wp--preset--color--surface-container-high);\n}\n& .wp-block-post:active {\nbackground-color: var(--wp--preset--color--surface-container-highest);\n}",
+				"css": "overflow: hidden;\nheight: 100%;\n\n& .wp-block-post {\nheight: 100%;\noverflow: hidden;\nbackground-color: var(--wp--preset--color--surface-container);\nborder-radius: var(--wp--preset--border-radius--small);\ntransition: opacity var(--wp--custom--transition-normal),\nbackground-color var(--wp--custom--transition-normal);\n}\n\n&.wp-block-post-template-is-layout-grid .wp-block-post {\nborder-radius: var(--wp--preset--border-radius--large-increased);\n}\n\n& .wp-block-post:hover {\nbackground-color: var(--wp--preset--color--surface-container-high);\n}\n& .wp-block-post:active {\nbackground-color: var(--wp--preset--color--surface-container-highest);\n}",
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--small)",
 					"padding": "0px"
@@ -1371,20 +961,23 @@
 				}
 			},
 			"core/query-pagination": {
-				"css": "padding: var(--wp--preset--spacing--large);"
+				"css": "flex-direction: column;\ngap: var(--wp--preset--spacing--normal);"
 			},
 			"core/query-pagination-next": {
-				"css": "align-content: center;\ntext-decoration: none;\n\nmin-height: 48px;\npadding: 0px var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--large);\ncolor: var(--wp--preset--color--on-secondary);\nbackground-color: var(--wp--preset--color--secondary);\ntransition: var(--wp--custom--transition-normal);\nline-height: 1;\n\n&:hover {\nopacity: 0.8;\n}\n\n&:active {\nopacity: 0.6;\n}"
+				"css": "display: block;\nposition: relative;\nalign-content: center;\ntext-decoration: none;\ncolor: var(--wp--preset--color--on-secondary);\npadding: 0px var(--wp--preset--spacing--large-increased);\nmin-height: var(--wp--custom--medium-height);\ntransition: opacity var(--wp--custom--transition-normal);\n\n&::before {\nposition: absolute;\ncontent: \"\";\nwidth: 100%;\ntop: 50%;\nleft: 0;\ntransform: translate(0px, -50%);\nz-index: -1;\nmin-height: var(--wp--custom--small-height);\nborder-radius: var(--wp--preset--border-radius--large-increased);\nbackground-color: var(--wp--preset--color--secondary);\n}\n\n&:hover {\nopacity: 0.8;\n}\n\n&:active {\nopacity: 0.6;\n}",
+				"typography": {
+					"lineHeight": "1"
+				}
 			},
 			"core/query-pagination-numbers": {
-				"css": "border-radius: 48px;\noverflow: hidden;\ndisplay: flex;\ngap: 2px\n\n& .page-numbers {\ntext-decoration: none !important;\ncolor: var(--wp--preset--color--on-tertiary-container);\nbackground-color: var(--wp--preset--color--tertiary-container);\npadding: var(--wp--preset--spacing--small) var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--small);\ntransition: background-color var(--wp--custom--transition-normal);\n}\n\n& .page-numbers:hover {\ncolor: var(--wp--preset--color--on-secondary-container);\nbackground-color: var(--wp--preset--color--secondary-container);\n}\n\n& .page-numbers.current {\nborder-radius: var(--wp--preset--border-radius--large);\ncolor: var(--wp--preset--color--on-tertiary);\nbackground-color: var(--wp--preset--color--tertiary);\n}\n\n& .page-numbers.dots{\nbackground-color: transparent;\n}",
+				"css": "display: flex;\nflex-wrap: wrap;\ngap: 2px;\n   -moz-user-select: none;\n   -khtml-user-select: none;\n   -webkit-user-select: none;\n   -ms-user-select: none;\n   user-select: none;\n\n& .page-numbers {\ndisplay: flex;\nposition: relative;\nalign-items: center;\njustify-content: center;\ntext-decoration: none !important;\npadding: 0px var(--wp--preset--spacing--large);\ncolor: var(--wp--preset--color--on-tertiary-container);\ntransition: opacity var(--wp--custom--transition-normal);\nmin-height: var(--wp--custom--medium-height);\nmin-width: var(--wp--custom--medium-height);\n  box-sizing: border-box;\n}\n\n& .page-numbers::before {\nposition: absolute;\nheight: var(--wp--custom--extra-small-height);\nwidth: 100%;\ntop: 50%;\nleft: 0;\ncontent: \"\";\nz-index: -1;\nbackground-color: var(--wp--preset--color--tertiary-container);\nborder-radius: var(--wp--preset--border-radius--small);\ntransform: translate(0px, -50%);\n}\n\n& .page-numbers::before:first-child {\nborder-radius: var(--wp--preset--border-radius--large) var(--wp--preset--border-radius--small) var(--wp--preset--border-radius--small) var(--wp--preset--border-radius--large);\n}\n\n& .page-numbers::before:last-child {\nborder-radius: var(--wp--preset--border-radius--small) var(--wp--preset--border-radius--large) var(--wp--preset--border-radius--large) var(--wp--preset--border-radius--small);\n}\n\n& .page-numbers:hover {\nopacity: 0.8;\n}\n\n& .page-numbers:active {\nopacity: 0.6;\n}\n\n& .page-numbers.current {\ncolor: var(--wp--preset--color--on-tertiary);\n}\n\n& .page-numbers.current::before {\nborder-radius: var(--wp--preset--border-radius--large);\nbackground-color: var(--wp--preset--color--tertiary);\n}\n\n& .page-numbers.dots {\ncolor: var(--wp--preset--color--on-surface-variant);\n}\n\n& .page-numbers.dots::before {\nbackground-color: transparent;\n}",
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--body-large)",
 					"lineHeight": "1"
 				}
 			},
 			"core/query-pagination-previous": {
-				"css": "align-content: center;\ntext-decoration: none;\n\nmin-height: 48px;\npadding: 0px var(--wp--preset--spacing--large);\nborder-radius: var(--wp--preset--border-radius--large);\ncolor: var(--wp--preset--color--on-secondary);\nbackground-color: var(--wp--preset--color--secondary);\ntransition: var(--wp--custom--transition-normal);\nline-height: 1;\n\n&:hover {\nopacity: 0.8;\n}\n\n&:active {\nopacity: 0.6;\n}"
+				"css": "display: block;\nposition: relative;\nalign-content: center;\ntext-decoration: none;\ncolor: var(--wp--preset--color--on-secondary);\npadding: 0px var(--wp--preset--spacing--large-increased);\nmin-height: var(--wp--custom--medium-height);\ntransition: opacity var(--wp--custom--transition-normal);\n\n&::before {\nposition: absolute;\ncontent: \"\";\nwidth: 100%;\ntop: 50%;\nleft: 0;\ntransform: translate(0px, -50%);\nz-index: -1;\nmin-height: var(--wp--custom--small-height);\nborder-radius: var(--wp--preset--border-radius--large-increased);\nbackground-color: var(--wp--preset--color--secondary);\n}\n\n&:hover {\nopacity: 0.8;\n}\n\n&:active {\nopacity: 0.6;\n}"
 			},
 			"core/quote": {
 				"border": {
@@ -1431,7 +1024,7 @@
 			"background": "var(--wp--preset--color--surface)",
 			"text": "var(--wp--preset--color--on-surface)"
 		},
-		"css": ":root {\n    --wpforms-label-error-color: var(--wp--preset--color--error);\n}\n\n.fill-height {\nheight: 100%;\n}\n\n.absolute-center {\n    position: absolute;\n    width: 100%;\n    left: 50%;\n    transform: translate(-50%, 0px);\n    z-index: 0;\n}\n\ntextarea {\n    padding: 14px 16px;\n}\n\ninput[type=\"checkbox\"] {\n    appearance: none;\n    background-color: transparent;\n    margin: 0px !important;\n    font: inherit;\n    color: var(--wp--preset--color--on-surface-variant);\n    width: 20px;\n    height: 20px;\n    border: 2px solid var(--wp--preset--color--on-surface-variant);\n    border-radius: var(--wp--preset--border-radius--extra-small);\n    transform: translateY(2.5px);\n\n    display: grid;\n    place-content: center;\n    cursor: pointer;\n}\n\ninput[type=\"checkbox\"]:checked {\n    border-color: var(--wp--preset--color--primary);\n    color: var(--wp--preset--color--on-primary);\n    background-color: var(--wp--preset--color--primary);\n}\n\ninput[type=\"checkbox\"]:checked::after {\ncontent: \"\";\n    position: absolute;\n    top: 0px;\n    left: 25%;\n    transform: translate(-50%, -50%);\nwidth: 4px;\nheight: 8px;\n    border: solid var(--wp--preset--color--on-primary);\n    border-width: 0 2px 2px 0;\n    transform: rotate(45deg);\n}\n\nform,\n.wpforms-field-container {\n    display: flex;\n    flex-direction: column;\n    gap: var(--wp--preset--spacing--large);\n}\n\n.comment-form,\n.wpforms-container .wpforms-field {\n    padding: 0px !important;\n\n    &.wpforms-field-gdpr-checkbox {\n        ul {\n            list-style-type: none;\n            padding: 0px;\n\n            li {\n                label {\n                    line-height: 1;\n                    font-size: var(--wp--preset--font-size--label-large) !important;\n                }\n            }\n        }\n    }\n\n    label,\n    legend {\n        padding: 0px var(--wp--preset--spacing--normal) !important;\n        font-size: var(--wp--preset--font-size--label-medium) !important;\n        color: var(--wp--preset--color--on-surface-variant) !important;\n        margin: var(--wp--preset--spacing--extra-small) 0px;\n    }\n}\n\n.wpforms-container label.wpforms-error,\n.wpforms-container em.wpforms-error {\n    color: var(--wp--preset--color--error) !important;\n    font-size: var(--wp--preset--font-size--label-medium) !important;\n    padding-inline: var(--wp--preset--spacing--normal) !important;\n    padding-top: var(--wp--preset--spacing--extra-small) !important;\n}\n\n.wpforms-container .wpforms-field input.wpforms-error,\n.wpforms-container .wpforms-field input.user-invalid,\n.wpforms-container .wpforms-field textarea.wpforms-error,\n.wpforms-container .wpforms-field textarea.user-invalid,\n.wpforms-container .wpforms-field select.wpforms-error,\n.wpforms-container .wpforms-field select.user-invalid {\n    border: 2px solid var(--wp--preset--color--error) !important;\n}\n\n.wpforms-submit {\n    color: var(--wp--preset--color--on-primary);\n    background-color: var(--wp--preset--color--primary);\n    font-size: var(--wp--preset--font-size--label-large) !important;\n    font-weight: normal !important;\n    font-family: inherit;\n    min-height: 48px !important;\n    width: 100% !important;\n    border: none;\n    border-radius: var(--wp--preset--border-radius--large);\n    transition: opacity var(--wp--custom--transition-normal);\n\n    &:hover {\n        opacity: 0.8;\n    }\n\n    &:active {\n        opacity: 0.6;\n    }\n}\n\n@media (max-width: 1200px) {\n    header {\n        .wp-block-site-logo {\n            position: absolute;\n            left: 50%;\n            transform: translateX(-50%);\n        }\n\n    .wp-block-navigation {\n        &:not(.is-responsive) {\n            position: absolute;\n            visibility: hidden;\n        }\n    }\n}\n}\n\n@media (min-width: 1201px) {\n    .wp-block-navigation {\n        &:has(.always-shown) {\n            position: absolute;\n            visibility: hidden;\n        }\n    }\n}\n\n@media (min-width: 840px) and (max-width: 1200px) {\n    .wp-block-group.is-layout-grid {\n        grid-template-columns: repeat(2, minmax(0, 1fr));\n    }\n}\n\n@media (max-width: 839px) {\n    header {\n        .wp-block-buttons {\n            visibility: hidden;\n        }\n    }\n    .wp-block-group.is-layout-grid {\ngrid-template-columns: 1fr;\n    }\n}",
+		"css": ":root {\n    --wpforms-label-error-color: var(--wp--preset--color--error);\n}\n\n.fill-height {\nheight: 100%;\n}\n\n.absolute-center {\n    position: absolute;\n    width: 100%;\n    left: 50%;\n    transform: translate(-50%, 0px);\n    z-index: -1;\n}\n\ntextarea {\n    padding: 14px 16px;\n}\n\ninput[type=\"checkbox\"] {\n    appearance: none;\n    background-color: transparent;\n    margin: 0px !important;\n    font: inherit;\n    color: var(--wp--preset--color--on-surface-variant);\n    width: 20px;\n    height: 20px;\n    border: 2px solid var(--wp--preset--color--on-surface-variant);\n    border-radius: var(--wp--preset--border-radius--extra-small);\n    transform: translateY(2.5px);\n\n    display: grid;\n    place-content: center;\n    cursor: pointer;\n}\n\ninput[type=\"checkbox\"]:checked {\n    border-color: var(--wp--preset--color--primary);\n    color: var(--wp--preset--color--on-primary);\n    background-color: var(--wp--preset--color--primary);\n}\n\ninput[type=\"checkbox\"]:checked::after {\ncontent: \"\";\n    position: absolute;\n    top: 0px;\n    left: 25%;\n    transform: translate(-50%, -50%);\nwidth: 4px;\nheight: 8px;\n    border: solid var(--wp--preset--color--on-primary);\n    border-width: 0 2px 2px 0;\n    transform: rotate(45deg);\n}\n\nform,\n.wpforms-field-container {\n    display: flex;\n    flex-direction: column;\n    gap: var(--wp--preset--spacing--large);\n}\n\n.comment-form,\n.wpforms-container .wpforms-field {\n    padding: 0px !important;\n\n    &.wpforms-field-gdpr-checkbox {\n        ul {\n            list-style-type: none;\n            padding: 0px;\n\n            li {\n                label {\n                    line-height: 1;\n                    font-size: var(--wp--preset--font-size--label-large) !important;\n                }\n            }\n        }\n    }\n\n    label,\n    legend {\n        padding: 0px var(--wp--preset--spacing--normal) !important;\n        font-size: var(--wp--preset--font-size--label-medium) !important;\n        color: var(--wp--preset--color--on-surface-variant) !important;\n        margin: var(--wp--preset--spacing--extra-small) 0px;\n    }\n}\n\n.wpforms-container label.wpforms-error,\n.wpforms-container em.wpforms-error {\n    color: var(--wp--preset--color--error) !important;\n    font-size: var(--wp--preset--font-size--label-medium) !important;\n    padding-inline: var(--wp--preset--spacing--normal) !important;\n    padding-top: var(--wp--preset--spacing--extra-small) !important;\n}\n\n.wpforms-container .wpforms-field input.wpforms-error,\n.wpforms-container .wpforms-field input.user-invalid,\n.wpforms-container .wpforms-field textarea.wpforms-error,\n.wpforms-container .wpforms-field textarea.user-invalid,\n.wpforms-container .wpforms-field select.wpforms-error,\n.wpforms-container .wpforms-field select.user-invalid {\n    border: 2px solid var(--wp--preset--color--error) !important;\n}\n\n.wpforms-submit {\n    color: var(--wp--preset--color--on-primary);\n    background-color: var(--wp--preset--color--primary);\n    font-size: var(--wp--preset--font-size--label-large) !important;\n    font-weight: normal !important;\n    font-family: inherit;\n    min-height: 48px !important;\n    width: 100% !important;\n    border: none;\n    border-radius: var(--wp--preset--border-radius--large);\n    transition: opacity var(--wp--custom--transition-normal);\n\n    &:hover {\n        opacity: 0.8;\n    }\n\n    &:active {\n        opacity: 0.6;\n    }\n}\n\n@media (max-width: 1200px) {\n    header {\n        .wp-block-site-logo {\n            position: absolute;\n            left: 50%;\n            transform: translateX(-50%);\n        }\n\n    .wp-block-navigation {\n        &:not(.is-responsive) {\n            position: absolute;\n            visibility: hidden;\n        }\n    }\n}\n}\n\n@media (min-width: 1201px) {\n    .wp-block-navigation {\n        &:has(.always-shown) {\n            position: absolute;\n            visibility: hidden;\n        }\n    }\n}\n\n@media (min-width: 840px) and (max-width: 1200px) {\n    .wp-block-group.is-layout-grid {\n        grid-template-columns: repeat(2, minmax(0, 1fr));\n    }\n}\n\n@media (max-width: 839px) {\n    header {\n        .wp-block-buttons {\n            visibility: hidden;\n        }\n    }\n    .wp-block-group.is-layout-grid {\ngrid-template-columns: 1fr;\n    }\n}",
 		"elements": {
 			"button": {
 				"border": {
@@ -1508,6 +1101,9 @@
 				},
 				"color": {
 					"text": "var(--wp--preset--color--tertiary)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--body-large)"
 				}
 			},
 			"textInput": {
@@ -1542,7 +1138,7 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--comfortaa)",
-			"fontSize": "var(--wp--preset--font-size--body-medium)",
+			"fontSize": "var(--wp--preset--font-size--body-large)",
 			"fontStyle": "normal",
 			"fontWeight": "400",
 			"lineHeight": "1.2"
@@ -1559,5 +1155,6 @@
 			"name": "footer",
 			"title": "Footer"
 		}
-	]
+	],
+	"title": "LUMO WP Theme"
 }

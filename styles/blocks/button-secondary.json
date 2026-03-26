@@ -6,6 +6,7 @@
 	"blockTypes": ["core/button"],
 	"styles": {
         "color": {
+			"text": "var(--wp--preset--color--on-secondary)",
             "background": "var(--wp--preset--color--secondary)"
         }
 	}

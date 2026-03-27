@@ -5,7 +5,8 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|extra-extra-large"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:template-part {"slug":"header"} /--></div>
 <!-- /wp:group -->
 
@@ -81,4 +82,5 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:template-part {"slug":"footer"} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->

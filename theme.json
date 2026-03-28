@@ -705,7 +705,12 @@
 			},
 			"core/columns": {
 				"border": {
-					"radius": "var(--wp--preset--border-radius--extra-large)"
+					"radius": {
+						"bottomLeft": "var(--wp--preset--border-radius--extra-large-increased)",
+						"bottomRight": "var(--wp--preset--border-radius--extra-large-increased)",
+						"topLeft": "var(--wp--preset--border-radius--extra-large-increased)",
+						"topRight": "var(--wp--preset--border-radius--extra-large-increased)"
+					}
 				},
 				"spacing": {
 					"blockGap": {
@@ -771,10 +776,10 @@
 			"core/image": {
 				"border": {
 					"radius": {
-						"bottomLeft": "var(--wp--preset--border-radius--normal)",
-						"bottomRight": "var(--wp--preset--border-radius--normal)",
-						"topLeft": "var(--wp--preset--border-radius--normal)",
-						"topRight": "var(--wp--preset--border-radius--normal)"
+						"bottomLeft": "var(--wp--preset--border-radius--large-increased)",
+						"bottomRight": "var(--wp--preset--border-radius--large-increased)",
+						"topLeft": "var(--wp--preset--border-radius--large-increased)",
+						"topRight": "var(--wp--preset--border-radius--large-increased)"
 					}
 				}
 			},
@@ -909,7 +914,7 @@
 						"topRight": "var(--wp--preset--border-radius--extra-large-increased)"
 					}
 				},
-				"css": "overflow: hidden;\nheight: 100%;\n\n& .wp-block-post {\nheight: 100%;\noverflow: hidden;\nbackground-color: var(--wp--preset--color--surface-container);\nborder-radius: var(--wp--preset--border-radius--small);\ntransition: opacity var(--wp--custom--transition-normal),\nbackground-color var(--wp--custom--transition-normal);\n}\n\n&.wp-block-post-template-is-layout-grid .wp-block-post {\nborder-radius: var(--wp--preset--border-radius--large-increased);\n}\n\n& .wp-block-post:hover {\nbackground-color: var(--wp--preset--color--surface-container-high);\n}\n& .wp-block-post:active {\nbackground-color: var(--wp--preset--color--surface-container-highest);\n}",
+				"css": "overflow: hidden;\nheight: 100%;\n\n& .wp-block-post {\nheight: 100%;\noverflow: hidden;\nbackground-color: var(--wp--preset--color--surface-container-low);\nborder-radius: var(--wp--preset--border-radius--small);\ntransition: opacity var(--wp--custom--transition-normal),\nbackground-color var(--wp--custom--transition-normal);\n}\n\n&.wp-block-post-template-is-layout-grid .wp-block-post {\nborder-radius: var(--wp--preset--border-radius--large-increased);\n}\n\n& .wp-block-post:hover {\nbackground-color: var(--wp--preset--color--surface-container-high);\n}\n& .wp-block-post:active {\nbackground-color: var(--wp--preset--color--surface-container-highest);\n}",
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--small)",
 					"padding": "0px"
@@ -927,7 +932,7 @@
 				"color": {
 					"text": "var(--wp--preset--color--on-surface-variant)"
 				},
-				"css": "background-color: var(--wp--preset--color--surface-container)",
+				"css": "background-color: var(--wp--preset--color--surface-container-lowest)",
 				"elements": {
 					"link": {
 						"color": {
@@ -1064,7 +1069,7 @@
 						"topRight": "var(--wp--preset--border-radius--extra-large-increased)"
 					}
 				},
-				"css": "overflow: hidden;\n\n& .wp-block-term {\ntransition: opacity var(--wp--custom--transition-normal), background-color var(--wp--custom--transition-normal);\n}\n&.is-layout-grid .wp-block-term {\nbackground-color: var(--wp--preset--color--surface-container);\nborder-radius: var(--wp--preset--border-radius--large-increased);\n}\n\n&:not(.is-layout-grid) .wp-block-term:hover {\nopacity: 0.8;\n}\n\n&:not(.is-layout-grid) .wp-block-term:active {\nopacity: 0.6;\n}\n\n&.is-layout-grid .wp-block-term:hover {\nbackground-color: var(--wp--preset--color--surface-container-high);\n}\n\n&.is-layout-grid .wp-block-term:active{\nbackground-color: var(--wp--preset--color--surface-container-highest);\n}",
+				"css": "overflow: hidden;\n\n& .wp-block-term {\ntransition: opacity var(--wp--custom--transition-normal), background-color var(--wp--custom--transition-normal);\n}\n&.is-layout-grid .wp-block-term {\nbackground-color: var(--wp--preset--color--surface-container-low);\nborder-radius: var(--wp--preset--border-radius--large-increased);\n}\n\n&:not(.is-layout-grid) .wp-block-term:hover {\nopacity: 0.8;\n}\n\n&:not(.is-layout-grid) .wp-block-term:active {\nopacity: 0.6;\n}\n\n&.is-layout-grid .wp-block-term:hover {\nbackground-color: var(--wp--preset--color--surface-container-high);\n}\n\n&.is-layout-grid .wp-block-term:active{\nbackground-color: var(--wp--preset--color--surface-container-highest);\n}",
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--small)"
 				}

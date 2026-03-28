@@ -7,7 +7,7 @@
 	"styles": {
         "css": "overflow: hidden;",
         "color": {
-            "background": "var(--wp--preset--color--surface-container)"
+            "background": "var(--wp--preset--color--surface-container-lowest)"
         }
 	}
 }

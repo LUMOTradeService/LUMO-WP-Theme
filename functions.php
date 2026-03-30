@@ -33,5 +33,3 @@ function lumopos_block_editor_assets()
 	);
 }
 add_action('enqueue_block_editor_assets', 'lumopos_block_editor_assets');
-
-require get_parent_theme_file_path('blocks/blocks.php');

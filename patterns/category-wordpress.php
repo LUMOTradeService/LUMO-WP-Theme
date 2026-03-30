@@ -27,15 +27,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|extra-extra-small"}},"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"top"}} -->
-<div class="wp-block-group"><!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-button-secondary-small","style":{"border":{"radius":{"topLeft":"var:preset|border-radius|small","topRight":"var:preset|border-radius|small","bottomLeft":"var:preset|border-radius|small","bottomRight":"var:preset|border-radius|small"}}}} -->
-<div class="wp-block-button is-style-button-secondary-small"><a class="wp-block-button__link wp-element-button" href="http://lumo-pos.local/" style="border-top-left-radius:var(--wp--preset--border-radius--small);border-top-right-radius:var(--wp--preset--border-radius--small);border-bottom-left-radius:var(--wp--preset--border-radius--small);border-bottom-right-radius:var(--wp--preset--border-radius--small)"><?php esc_html_e('All', 'lumo-wp-theme');?></a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
-
-<!-- wp:categories {"showHierarchy":true,"showOnlyTopLevel":true} /--></div>
-<!-- /wp:group -->
+<!-- wp:template-part {"slug":"blog-categories"} /-->
 
 <!-- wp:terms-query {"termQuery":{"perPage":0,"taxonomy":"category","order":"asc","orderBy":"name","include":[],"hideEmpty":true,"showNested":false,"inherit":true}} -->
 <div class="wp-block-terms-query"><!-- wp:term-template {"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"20rem"}} -->

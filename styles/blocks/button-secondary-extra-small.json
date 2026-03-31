@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Secondary extra small",
+	"slug": "button-secondary-extra-small",
+	"blockTypes": ["core/button"],
+	"styles": {
+        "color": {
+			"text": "var(--wp--preset--color--on-secondary)",
+            "background": "var(--wp--preset--color--secondary)"
+        },
+		"spacing": {
+			"padding": {
+				"left": "var(--wp--preset--spacing--large)",
+				"right": "var(--wp--preset--spacing--large)",
+				"top": "var(--wp--preset--spacing--extra-small)",
+				"bottom": "var(--wp--preset--spacing--extra-small)"
+			}
+		},
+		"css": "position: relative; min-height: var(--wp--custom--extra-small-height); &::after {\nposition:absolute;\ncontent: '';\nwidth: 100%;\nmin-height: var(--wp--custom--normal-height);\n}"
+	}
+}

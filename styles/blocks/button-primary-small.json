@@ -6,8 +6,17 @@
 	"blockTypes": ["core/button"],
 	"styles": {
         "color": {
+			"text": "var(--wp--preset--color--on-primary)",
             "background": "var(--wp--preset--color--primary)"
         },
-		"css": "position: relative; min-height: var(--wp--custom--small-height); &::after {\nposition:absolute;\ncontent: '';\nwidth: 100%;\nmin-height: 48px;\n}"
+		"spacing": {
+			"padding": {
+				"left": "var(--wp--preset--spacing--large-increased)",
+				"right": "var(--wp--preset--spacing--large-increased)",
+				"top": "var(--wp--preset--spacing--small)",
+				"bottom": "var(--wp--preset--spacing--small)"
+			}
+		},
+		"css": "position: relative; min-height: var(--wp--custom--small-height); &::after {\nposition:absolute;\ncontent: '';\nwidth: 100%;\nmin-height: var(--wp--custom--normal-height);\n}"
 	}
 }

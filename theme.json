@@ -650,6 +650,12 @@
 					}
 				},
 				"css": "user-select: none;\ndisplay: flex;\nalign-items: center;\njustify-content: center;\nmin-height: var(--wp--custom--medium-height);\ntransition: opacity var(--wp--custom--transition-normal); \n&:hover { opacity: 0.8; } \n&:active { opacity: 0.6 }",
+				"spacing": {
+					"padding": {
+						"left": "var(--wp--preset--spacing--extra-large)",
+						"right": "var(--wp--preset--spacing--extra-large)"
+					}
+				},
 				"typography": {
 					"lineHeight": "1"
 				}

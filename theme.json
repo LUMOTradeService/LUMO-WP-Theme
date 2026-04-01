@@ -973,7 +973,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--comfortaa)",
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--headline-large)"
 				}
 			},

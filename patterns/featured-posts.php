@@ -31,7 +31,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:post-title {"level":3,"isLink":true,"fontSize":"headline-large"} /-->
+<div class="wp-block-group"><!-- wp:post-title {"level":3,"isLink":true,"fontSize":"headline-large","fontFamily":"comfortaa"} /-->
 
 <!-- wp:post-excerpt /--></div>
 <!-- /wp:group --></div>

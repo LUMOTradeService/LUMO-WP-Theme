@@ -24,7 +24,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:post-title {"level":4,"isLink":true,"fontSize":"title-large"} /-->
+<div class="wp-block-group"><!-- wp:post-title {"level":4,"isLink":true,"fontSize":"title-large","fontFamily":"comfortaa"} /-->
 
 <!-- wp:post-excerpt {"moreText":""} /--></div>
 <!-- /wp:group --></div>

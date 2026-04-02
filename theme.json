@@ -1036,6 +1036,9 @@
 			"core/separator": {
 				"css": "color: var(--wp--preset--color--tertiary)"
 			},
+			"core/table": {
+				"css": "& {\nborder: none;\noverflow: hidden;\noutline: 1px solid var(--wp--preset--color--secondary-container);\noutline-offset: -1px;\nborder-radius: var(--wp--preset--border-radius--large-increased);\n}\n\n& thead {\nborder-bottom: none !important;\nborder-color: var(--wp--preset--color--tertiary);\nbackground-color: var(--wp--preset--color--surface-container);\n}\n\n& td, th {\nborder: 1px solid var(--wp--preset--color--secondary-container) !important;\npadding: var(--wp--preset--spacing--normal) !important;\n}"
+			},
 			"core/term-name": {
 				"border": {
 					"radius": {

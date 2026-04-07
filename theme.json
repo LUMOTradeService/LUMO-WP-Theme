@@ -1215,6 +1215,16 @@
 			"title": "Header"
 		},
 		{
+			"area": "header",
+			"name": "header-with-navigation",
+			"title": "Header with navigation"
+		},
+		{
+			"area": "header",
+			"name": "header-with-call-to-action",
+			"title": "Header with call to action"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"

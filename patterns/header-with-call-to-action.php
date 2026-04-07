@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: header-with-call-to-action
- * Slug: lumo-wp-theme/header-with-navigation-copy
+ * Slug: lumo-wp-theme/header-with-call-to-action
  * Inserter: no
  */
 ?>
@@ -13,7 +13,7 @@
 
 <!-- wp:navigation {"overlayMenu":"never","icon":"menu","overlayBackgroundColor":"surface-container","overlayTextColor":"on-surface","className":"absolute-center","layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap"}} /-->
 
-<!-- wp:buttons {"style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
+<!-- wp:buttons {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Dashboard', 'lumo-wp-theme');?></a></div>
 <!-- /wp:button --></div>

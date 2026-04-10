@@ -1040,7 +1040,7 @@
 				"css": "z-index: 101;"
 			},
 			"core/table": {
-				"css": "& {\nborder: none;\noverflow: hidden;\noutline: 1px solid var(--wp--preset--color--secondary-container);\noutline-offset: -1px;\nborder-radius: var(--wp--preset--border-radius--large-increased);\n}\n\n& thead {\nborder-bottom: none !important;\nborder-color: var(--wp--preset--color--tertiary);\nbackground-color: var(--wp--preset--color--surface-container);\n}\n\n& td, th {\nborder: 1px solid var(--wp--preset--color--secondary-container) !important;\npadding: var(--wp--preset--spacing--normal) !important;\n}"
+				"css": "& {\noverflow: hidden;\nborder-spacing: 0;\nborder-collapse: separate !important;\nborder-radius: var(--wp--preset--border-radius--large-increased);\nborder: 1px solid var(--wp--preset--color--secondary-container) !important;\n}\n\n& thead {\nbackground-color: var(--wp--preset--color--surface-container);\n}\n\n& td, th {\nborder: none !important;\npadding: var(--wp--preset--spacing--normal) !important;\n}\n\n& tr:not(:last-child) td, th{\nborder-bottom: 1px solid var(--wp--preset--color--secondary-container) !important;\n}\n\n& td:not(:last-child), th:not(:last-child) {\nborder-right: 1px solid var(--wp--preset--color--secondary-container) !important;\n}"
 			},
 			"core/term-name": {
 				"border": {

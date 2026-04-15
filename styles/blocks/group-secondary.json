@@ -3,11 +3,20 @@
 	"version": 3,
 	"title": "Secondary",
 	"slug": "group-secondary",
-	"blockTypes": ["core/group"],
+	"blockTypes": [
+		"core/group"
+	],
 	"styles": {
-        "css": "overflow: hidden;\n& .wp-block-heading {\ncolor: var(--wp--preset--color--on-secondary-container);\nmin-height: 2.45em;\n}",
-        "color": {
-            "background": "var(--wp--preset--color--secondary-container)"
-        }
+		"css": "overflow: hidden;",
+		"color": {
+			"background": "var(--wp--preset--color--secondary-container)"
+		},
+		"elements": {
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--on-secondary-container)"
+				}
+			}
+		}
 	}
 }

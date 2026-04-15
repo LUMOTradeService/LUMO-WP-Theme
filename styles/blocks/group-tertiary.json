@@ -3,11 +3,20 @@
 	"version": 3,
 	"title": "Tertiary",
 	"slug": "group-tertiary",
-	"blockTypes": ["core/group"],
+	"blockTypes": [
+		"core/group"
+	],
 	"styles": {
-        "css": "overflow: hidden; & .wp-block-heading {\ncolor: var(--wp--preset--color--on-tertiary-container)\nmin-height: 2.45em;\n}",
-        "color": {
-            "background": "var(--wp--preset--color--tertiary-container)"
-        }
+		"css": "overflow: hidden;",
+		"color": {
+			"background": "var(--wp--preset--color--tertiary-container)"
+		},
+		"elements": {
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--on-tertiary-container)"
+				}
+			}
+		}
 	}
 }

@@ -776,6 +776,13 @@
 					}
 				},
 				"css": "",
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var(--wp--preset--color--on-surface)"
+						}
+					}
+				},
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--small)",
 					"padding": "0px"

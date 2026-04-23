@@ -929,7 +929,7 @@
 						"topRight": "var(--wp--preset--border-radius--extra-large-increased)"
 					}
 				},
-				"css": "overflow: hidden;\nheight: 100%;\n\n& .wp-block-post {\nheight: 100%;\noverflow: hidden;\nbackground-color: var(--wp--preset--color--surface-container-low);\nborder-radius: var(--wp--preset--border-radius--large-increased);\ntransition: opacity var(--wp--custom--transition-normal),\nbackground-color var(--wp--custom--transition-normal);\n}\n\n& .wp-block-post:hover {\nbackground-color: var(--wp--preset--color--surface-container-high);\n}\n& .wp-block-post:active {\nbackground-color: var(--wp--preset--color--surface-container-highest);\n}",
+				"css": "overflow: hidden;\nheight: 100%;\n\n& .wp-block-post {\nborder-radius: var(--wp--preset--border-radius--large-increased);\nheight: 100%;\noverflow: hidden;\nbackground-color: var(--wp--preset--color--surface-container-low);\ntransition: opacity var(--wp--custom--transition-normal),\nbackground-color var(--wp--custom--transition-normal);\n}\n\n& .wp-block-post:hover {\nbackground-color: var(--wp--preset--color--surface-container-high);\n}\n& .wp-block-post:active {\nbackground-color: var(--wp--preset--color--surface-container-highest);\n}",
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--small)",
 					"padding": "0px"

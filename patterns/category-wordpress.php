@@ -27,7 +27,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:template-part {"slug":"blog-categories"} /-->
+<!-- wp:template-part {"slug":"categories","area":"uncategorized"} /-->
 
 <!-- wp:terms-query {"termQuery":{"perPage":0,"taxonomy":"category","order":"asc","orderBy":"name","include":[],"hideEmpty":true,"showNested":false,"inherit":true}} -->
 <div class="wp-block-terms-query"><!-- wp:term-template {"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"20rem"}} -->

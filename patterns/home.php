@@ -27,7 +27,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:template-part {"slug":"blog-categories-all-selected"} /-->
+<!-- wp:template-part {"slug":"categories","area":"uncategorized"} /-->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|normal"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|large-increased","left":"var:preset|spacing|large-increased"}}},"layout":{"type":"constrained"}} -->

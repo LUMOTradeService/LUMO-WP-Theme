@@ -2,7 +2,7 @@
 
 A lightweight WordPress theme for local point-of-sale and small business sites.
 
-![Image showcasing design and pages of the theme](https://github.com/LUMOTradeService/LUMO-WP-Theme/blob/1.0.0/screenshot.jpg)
+![Image showcasing design and pages of the theme](https://github.com/LUMOTradeService/LUMO-WP-Theme/blob/main/screenshot.jpg)
 
 This repository contains the `lumo-wp-theme` — a custom WordPress theme used for the Lumo POS site. It includes templates, patterns, styles, assets, and theme functions required to run the site.
 

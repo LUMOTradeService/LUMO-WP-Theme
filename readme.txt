@@ -11,5 +11,5 @@ WP Theme for LUMO trade service websites.
 
 == Recommended Plugins ==
 
-WP-forms
+LUMO-WP-Plugin
 

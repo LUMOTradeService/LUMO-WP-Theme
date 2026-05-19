@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Small",
+	"slug": "template-small",
+	"blockTypes": [
+		"core/post-template"
+	],
+	"styles": {
+		"spacing": {
+			"blockGap": "var(--wp--preset--spacing--extra-extra-small)"
+		},
+		"border": {
+			"radius": {
+				"bottomLeft": "var(--wp--preset--border-radius--extra-large)",
+				"bottomRight": "var(--wp--preset--border-radius--extra-large)",
+				"topLeft": "var(--wp--preset--border-radius--extra-large)",
+				"topRight": "var(--wp--preset--border-radius--extra-large)"
+			}
+		},
+		"css": "& .wp-block-post {\nborder-radius: var(--wp--preset--border-radius--small);\n}"
+	}
+}

@@ -1,0 +1,131 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "POS",
+	"settings": {
+		"color": {
+			"palette": [
+                {
+                    "name": "Primary",
+                    "color": "#B5C4FF",
+                    "slug": "primary"
+                },
+                {
+                    "name": "On primary",
+                    "color": "#1C2D61",
+                    "slug": "on-primary"
+                },
+                {
+                    "name": "Primary container",
+                    "color": "#344479",
+                    "slug": "primary-container"
+                },
+                {
+                    "name": "On primary container",
+                    "color": "#DCE1FF",
+                    "slug": "on-primary-container"
+                },
+                {
+                    "name": "Secondary",
+                    "color": "#C1C5DD",
+                    "slug": "secondary"
+                },
+                {
+                    "name": "On secondary",
+                    "color": "#2B3042",
+                    "slug": "on-secondary"
+                },
+                {
+                    "name": "Secondary container",
+                    "color": "#414659",
+                    "slug": "secondary-container"
+                },
+                {
+                    "name": "On secondary container",
+                    "color": "#DDE1F9",
+                    "slug": "on-secondary-container"
+                },
+                {
+                    "name": "Tertiary",
+                    "color": "#E2BADB",
+                    "slug": "tertiary"
+                },
+                {
+                    "name": "On tertiary",
+                    "color": "#432740",
+                    "slug": "on-tertiary"
+                },
+                {
+                    "name": "Tertiary container",
+                    "color": "#5B3D57",
+                    "slug": "tertiary-container"
+                },
+                {
+                    "name": "On tertiary container",
+                    "color": "#FFD7F7",
+                    "slug": "on-tertiary-container"
+                },
+                {
+                    "name": "Error",
+                    "color": "#FFB4AB",
+                    "slug": "error"
+                },
+                {
+                    "name": "On error",
+                    "color": "#690005",
+                    "slug": "on-error"
+                },
+                {
+                    "name": "Error container",
+                    "color": "#93000A",
+                    "slug": "error-container"
+                },
+                {
+                    "name": "On error container",
+                    "color": "#FFDAD6",
+                    "slug": "on-error-container"
+                },
+                {
+                    "name": "Surface",
+                    "color": "#121318",
+                    "slug": "surface"
+                },
+                {
+                    "name": "On surface",
+                    "color": "#E3E1E9",
+                    "slug": "on-surface"
+                },
+                {
+                    "name": "On surface variant",
+                    "color": "#C6C6D0",
+                    "slug": "on-surface-variant"
+                },
+				{
+					"color": "#0D0E13",
+					"name": "Surface container lowest",
+					"slug": "surface-container-lowest"
+				},
+				{
+					"color": "#1A1B21",
+					"name": "Surface container low",
+					"slug": "surface-container-low"
+				},
+				{
+					"color": "#1E1F25",
+					"name": "Surface container",
+					"slug": "surface-container"
+				},
+				{
+					"color": "#292A2F",
+					"name": "Surface container high",
+					"slug": "surface-container-high"
+				},
+				{
+					"color": "#34343A",
+					"name": "Surface container highest",
+					"slug": "surface-container-highest"
+				}
+            ]
+		}
+	}
+}

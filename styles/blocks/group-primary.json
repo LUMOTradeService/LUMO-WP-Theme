@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Primary",
+	"slug": "group-primary",
+	"blockTypes": [
+		"core/group"
+	],
+	"styles": {
+		"css": "overflow: hidden;",
+		"color": {
+			"background": "var(--wp--preset--color--primary-container)"
+		},
+		"elements": {
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--on-primary-container)"
+				}
+			}
+		}
+	}
+}
